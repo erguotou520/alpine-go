@@ -4,8 +4,8 @@ MAINTAINER erguotou525@gmail.compute
 
 RUN apk update && apk add go git libc-dev && mkdir -p $HOME/go/src $HOME/go/bin $HOME/go/bin
 
-ENV GOPATH /root/go
-ENV GOBIN /root/go/bin
+ENV GOPATH $HOME/go
+ENV GOBIN $HOME/go/bin
 ENV PATH=$PATH:$GOBIN
 
 WORKDIR $HOME/go/src
