@@ -3,6 +3,6 @@ Base `golang` docker image with `go` and `git` installed
 
 ## Usage
 ```
-FROM erguotou520/alpine-go
+FROM erguotou/alpine-go
 RUN your code
 ```
